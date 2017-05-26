@@ -1350,7 +1350,7 @@ if matches[1] == '/rules' then
 	else
 		local rules = data[tostring(matches[2])]['rules']
 		if not rules then
-			text = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@BeyondTeam"
+			text = "ℹ️ The Default Rules :\n1⃣ No Flood.\n2⃣ No Spam.\n3⃣ No Advertising.\n4⃣ Try to stay on topic.\n5⃣ Forbidden any racist, sexual, homophobic or gore content.\n➡️ Repeated failure to comply with these rules will cause ban.\n@RobotZedSpamTeam"
 		elseif rules then
 			text = '*Group Rules :*\n'..rules
 		end
@@ -1388,7 +1388,7 @@ if matches[1] == '/cleanrules' then
 	end
 end
          -- ####################### About Us ####################### --
-if matches[1] == '/beyond' then
+if matches[1] == '/beyondsa' then
 	local text = _config.info_text
 	keyboard = {} 
 	keyboard.inline_keyboard = {
@@ -1406,7 +1406,7 @@ if matches[1] == '/beyond' then
     edit_inline(msg.message_id, text, keyboard)
 end
 
-if matches[1] == '/solid' then
+if matches[1] == '/solidn' then
 local text = [[*》SoLiD Information《*
 _》Age :_ *26*
 _》Name :_ *Saeid Rostami*
@@ -1430,7 +1430,7 @@ _》_*Lua*, *Cli* `and` *Api* _Bots_
 	}
     edit_inline(msg.message_id, text, keyboard)
 end
-if matches[1] == '/toofan' then
+if matches[1] == '/toofann' then
 local text = [[*》ToOfan Information《*
 _》Age :_ *35*
 _》Name :_ *Ali AzizAbadi*
